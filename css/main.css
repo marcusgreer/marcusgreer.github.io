@@ -41,3 +41,121 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+/* Sketch Wireframing K: */
+font-family: AvenirNext-Bold;
+font-size: 49.22px;
+color: #4A4A4A;
+line-height: 67px;
+/* This is a collection: */
+font-family: AvenirNext-Regular;
+font-size: 19.15px;
+color: #8C8C8C;
+line-height: 26px;
+/* Rectangle 519: */
+background-image: linear-gradient(-180deg, #E17EDE 0%, #C877F2 100%);
+border: 2px solid #604B69;
+border: 1px solid #7A6186;
+box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.20), 0px 2px 0px 0px rgba(255,255,255,0.20), inset 0px 3px 0px 0px rgba(255,255,255,0.25);
+border-radius: 8px;
+/* Sync copy: */
+background: #FFFFFF;
+border: 1px solid rgba(0,0,0,0.20);
+/* Symbols — Usage: */
+font-family: AvenirNext-Bold;
+font-size: 32.72px;
+color: #4A4A4A;
+line-height: 45px;
+/* Use the toolbar Symb: */
+font-family: AvenirNext-Regular;
+font-size: 21.87px;
+color: #4A4A4A;
+line-height: 30px;
+/* Rectangle 524: */
+background-image: linear-gradient(-180deg, #E17EDE 0%, #C877F2 100%);
+border: 2px solid #604B69;
+border: 1px solid #7A6186;
+box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.20), 0px 2px 0px 0px rgba(255,255,255,0.20), inset 0px 3px 0px 0px rgba(255,255,255,0.25);
+border-radius: 8px;
+/* Rectangle 697: */
+background: #FFFFFF;
+border: 1px solid rgba(0,0,0,0.20);
+/* Text Styles — Usage: */
+font-family: AvenirNext-Bold;
+font-size: 32.72px;
+color: #4A4A4A;
+line-height: 45px;
+/* Use the toolbar Styl: */
+font-family: AvenirNext-Regular;
+font-size: 21.87px;
+color: #4A4A4A;
+line-height: 30px;
+/* Document Structure: */
+font-family: AvenirNext-Bold;
+font-size: 32.72px;
+color: #4A4A4A;
+line-height: 45px;
+/* The document: */
+font-family: AvenirNext-Regular;
+font-size: 21.95px;
+color: #4A4A4A;
+line-height: 30px;
+
+
+/* Rectangle 7: */
+background: rgba(242,121,52,0.97);
+
+
+/* Rectangle 8 Copy 7: */
+background: #F8E71C;
+
+
+/* Triangles Copy 3: */
+background: #D91E18;
+
+
+/* Triangles Copy 2: */
+background: #000000;
+
+
+/* Triangles: */
+background: #5FA50D;
+border: 7px solid #F8E71C;
+
+
+/* Line: */
+border: 13px solid #FFFFFF;
+
+
+/* Line: */
+border: 10px solid #FFFFFF;
+
+
+/* Rectangle 6: */
+background: #00B2AF;
+border: 1px solid #979797;
+
+
+/* Software Engineer: */
+font-family: HelveticaNeue-CondensedBold;
+font-size: 14px;
+color: #F8E71C;
+letter-spacing: 2px;
+line-height: 16px;
+
+
+/* Rectangle 16: */
+background: #F8E71C;
+border: 1px solid #979797;
+border-radius: 8px;
+
+
+/* Marcus Greer: */
+font-family: HelveticaNeue-Bold;
+font-size: 24px;
+color: #00B2AF;
+letter-spacing: 2.09px;
+line-height: 29px;
+
+
