@@ -1,33 +1,66 @@
 <!DOCTYPE html>
-	<html lang ="en">
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0"/>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		
-		</head>
-
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<!-- <li><a href="/about" title="I'm not gonna front, I never made this page">About</a></li> -->
-	        		<li><a href="/Marcus_Greer_Resume.pdf">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:marcusgreer96@gmail.com">marcusgreer96@gmail.com</a></li>
-	        		<li><a href="https://github.com/marcusgreer">github.com/marcusgreer</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html lang ="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <meta name="description" content="I'm a dope kid and I do dope stuff">
+      <meta name="keywords" content="">
+      <!-- Facebook Open Graph Meta Tags -->
+      <meta property="og:image" content="">
+      <meta property="og:url" content="marcusgreer.com">
+      <meta property="og:title" content="Marcus Greer">
+      <meta property="og:description" content="I'm a dope kid and i do dope stuff">
+      <!-- Scripts Utilized -->
+      <script type="text/javascript" src="paper-full.min.js"></script>
+      <script type="text/paperscript" src="animation.js" canvas="background"></script>
+      <title>Marcus Greer</title>
+      <!-- link to default stylesheet -->
+      <link rel="stylesheet" type="text/css" href="/css/default.css">
+   </head>
+   <body>
+      <header>
+         <div class = "logos">
+            <object id="m_logo" data="/icons/m_logo_name.svg" type="image/svg+xml" height="80">
+               <!-- <img src="yourfallback.jpg" /> -->
+            </object>
+            
+            <object id="info_logo" data="/icons/info_logo.svg" type="image/svg+xml" width="50" height="50">
+               <!-- <img src="yourfallback.jpg" /> -->
+            </object>
+         </div>
+      </header>
+      <div class="main">
+         <nav>
+            <ul>
+               <li><a href="/">Home</a></li>
+               <li><a href="/Marcus_Greer_Resume.pdf">About</a></li>
+               <li><a href="/projects">Projects</a></li>
+               <li><a href="/Marcus_Greer_Resume.pdf">Resume</a></li>
+               <li><a href="/blog">Raps</a></li>
+            </ul>
+         </nav>
+         <div class="container">
+            {{ content }}
+         </div><!-- /.container -->
+      </div><!-- main -->
+      <footer>
+         <ul>
+            <li>
+               <a href="mailto:marcusgreer96@gmail.com">
+               <img id="icon_email" src="/icons/email.svg" height="42" width="42">
+               </a>
+            </li>
+            <li>
+               <a href="https://github.com/marcusgreer">
+               <img id="icon_github" src="/icons/github.svg" height="42" width="42">
+               </a>
+            </li>
+            <li>
+               <a href="https://soundcloud.com/marcus-greer">
+               <img id="icon_soundcloud" src="/icons/soundcloud.svg" height="42" width="42">
+               </a>
+            </li>
+         </ul>
+      </footer>
+   </body>
+</html>

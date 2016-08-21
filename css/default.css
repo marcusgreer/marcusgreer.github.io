@@ -1,26 +1,20 @@
 html {
-    background-color: #F14C66;
+    background-color: #FFFFFF;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
+    /*font-weight: 300;*/
 }
 
 body {
     margin: 0%;
     padding: 0%;
     top:160px;
+    display: inline;
 }
 
 header {
     background-color: #000000;
-    box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.3);
-    position: fixed;
+    border-bottom: 4px solid #EE4965;
     width: 100%;
-    z-index: 1;
-}
-
-div.container{
-    background-color: #000000;
-    box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .logos {
@@ -32,7 +26,12 @@ div.container{
 #info_logo{
     position: relative;
     float: right;
-    /*top: 50%;*/
+}
+
+.logos {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 #info_logo, #icon_soundcloud, #icon_github, #icon_email{
@@ -44,12 +43,20 @@ div.container{
     opacity: 1;
 }
 
-nav {
-    padding-top: 160px !important;
-    background-color: #6C97D5;
-    box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.3);
-    display: block;
-    width: 15rem;
+.main {
+  display: flex;
+}
+
+.container {
+  padding-left: 30px;
+  min-width: 75%;
+}
+
+.nav {
+  background-color: #FFFFFF;
+  max-width: 25%;
+  min-width: 140px;
+  flex: 1;
 }
 
 
@@ -60,27 +67,18 @@ nav ul{
 }
 
 nav ul li {
-    border-top: 1px solid #90B9EA;
     padding: 10px;
     padding-left: 70px;
 }
-
 a {
     text-decoration: none;
-    color: #FFF;
+    color: #EE4965;
 }
 
 a:hover, a:active {
     font-weight: bold;
-
+    color: #6C97D5;
 }
-
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-
 
 footer {
     background-color: #000000;
@@ -95,6 +93,7 @@ footer ul {
 
 footer ul li{
     display: inline;
-    padding: 10px;
+    float: center
     opacity: 0.5;
 }
+
