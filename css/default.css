@@ -76,7 +76,6 @@ a {
 }
 
 a:hover, a:active {
-    font-weight: bold;
     color: #6C97D5;
 }
 
@@ -102,7 +101,6 @@ footer object {
 footer ul li{
     display: inline;
     padding: 10px;
-    opacity: 0.5;
     -webkit-filter: invert(1);
    filter: invert(1);
 }

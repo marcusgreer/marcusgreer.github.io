@@ -1,7 +1,9 @@
 html {
     background-color: #F14C66;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", 
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
+    overflow: hidden;
 }
 
 body {
@@ -21,6 +23,8 @@ header {
 div.container{
     background-color: #000000;
     box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.3);
+    /*position: relative;
+    top: -150px;*/
 }
 
 .logos {
@@ -55,7 +59,8 @@ nav {
 
 nav ul{
     list-style: none;
-    padding: 10px;
+    padding: 0px;
+    padding-top: 10px;
     margin: 0px;
 }
 
@@ -66,12 +71,14 @@ nav ul li {
 }
 
 a {
+    /*border-top: 1px solid #90B9EA;*/
+    /*border-top: 1px solid #90B9EA;*/
     text-decoration: none;
     color: #FFF;
 }
 
-a:hover, a:active {
-    font-weight: bold;
+nav ul li:hover, nav ul li:active {
+    background-color: #4A90E2;
 
 }
 
@@ -86,15 +93,20 @@ footer {
     background-color: #000000;
     font-size: .8em;
     box-shadow: 0px 500px 0px 500px #000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    /*left: 50%;
+    transform: translateX(-50%);*/
+    /*text-align: center;*/
 }
 
 footer ul {
-    margin: auto;
-    width: 30%;
+    margin: 0;
+    text-align: center;
 }
 
 footer ul li{
     display: inline;
     padding: 10px;
-    opacity: 0.5;
 }
