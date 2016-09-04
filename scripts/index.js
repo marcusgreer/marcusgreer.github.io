@@ -1,4 +1,4 @@
-$(document).ready(function () {
+// $(document).ready(function () {
     $(document).on("mouseenter","div.container", function() {
         $('div').remove('.waves');
         $("div.container").append("\
@@ -24,4 +24,4 @@ $(document).ready(function () {
                 <script src='scripts/waves.js'></script>\
             </div>");
     });
-});
+// });

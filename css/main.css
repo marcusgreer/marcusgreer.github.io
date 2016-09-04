@@ -54,8 +54,14 @@ nav {
     box-shadow: 0px 2px 4px 3px rgba(0,0,0,0.3);
     display: block;
     width: 15rem;
+    position: fixed;
 }
 
+.clouds {
+    width: 100%;
+    height: 100%;
+    background-color: #F14C66;
+}
 
 nav ul{
     list-style: none;
@@ -65,21 +71,28 @@ nav ul{
 }
 
 nav ul li {
-    border-top: 1px solid #90B9EA;
-    padding: 10px;
-    padding-left: 70px;
-}
-
-a {
     /*border-top: 1px solid #90B9EA;*/
-    /*border-top: 1px solid #90B9EA;*/
-    text-decoration: none;
-    color: #FFF;
+    /*padding: 10px;*/
+    /*padding-left: 70px;*/
 }
 
 nav ul li:hover, nav ul li:active {
     background-color: #4A90E2;
 
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav ul li a .nav_block {
+    border-top: 1px solid #90B9EA;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 p {
@@ -92,10 +105,12 @@ p {
 footer {
     background-color: #000000;
     font-size: .8em;
-    box-shadow: 0px 500px 0px 500px #000;
+    box-shadow: 0px -2px 4px 3px rgba(0,0,0,0.3);
     width: 100%;
     position: fixed;
     bottom: 0;
+    padding-top:10px;
+    padding-bottom : 10px;
     /*left: 50%;
     transform: translateX(-50%);*/
     /*text-align: center;*/
